@@ -40,4 +40,14 @@ namespace RestricoesDeGenericosExemplo
  * RESTRIÇÕES DE GENÉRICOS
  * pra se encontrar o maior numa coleção, não pode ser qualquer tipo
  * tem que ser um tipo que seja possivel comprar os elementos.
+ * 
+ * outras possibilidades de restrição:
+ * 
+ * posso colocar que esse tipo tem que ser :
+ * STRUCT: where T: struct
+ * classe: where T: class
+ * unmanaged: where T: unmanaged
+ * que tenha um construtor: where T: new()
+ * qualquer outro tipo(ex.: comparable): where T:<base type name>
+ * Um outro tipo genérico definido na classe: where T: U
  */
