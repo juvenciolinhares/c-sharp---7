@@ -44,11 +44,6 @@ namespace ExcPropHashSet
             AllCourses.UnionWith(CourseC);
             Console.WriteLine("Total Students: " + AllCourses.Count);
 
-
-
-
-
-
         }
     }
 }

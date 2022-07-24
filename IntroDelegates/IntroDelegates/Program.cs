@@ -5,6 +5,7 @@ namespace IntroDelegates
 {
     //declarar o delegate:
     delegate double BinaryNumericOperation(double n1, double n2);//referencia p uma função que rece e retorna 2 doubles
+    delegate double SquareOperation(double n);
     internal class Program
     {
         static void Main(string[] args)
@@ -27,6 +28,12 @@ namespace IntroDelegates
             Console.WriteLine("Sum: " + result);
 
             //n posso ter referencia op pra square pq op recebe 2 doubles e square apenas 1.
+            double j = 38;
+            SquareOperation sqo= CalculationService.Square;
+
+            double total = sqo(38);
+
+            Console.WriteLine(total);
 
             //sintaxe alternativa 2:
             double c = 3;
