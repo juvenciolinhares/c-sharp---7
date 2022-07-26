@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ExcLInqLambdaSQL/1.0.0": {
+        "runtime": {
+          "ExcLInqLambdaSQL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExcLInqLambdaSQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
